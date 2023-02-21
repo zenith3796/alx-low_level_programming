@@ -9,15 +9,12 @@
 */
 int main(void)
 {
-int ch = 'a';
-int CH = 'A';
-
-while (CH <= 'Z')
+char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+int i;
+for (i - 0; i < 54; i++
 {
-putchar(CH);
-CH++;
+putchar(alph[i]);
 }
-
 putchar('\n');
 return (0);
 }
